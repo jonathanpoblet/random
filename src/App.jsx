@@ -1,10 +1,9 @@
 import React from 'react';
+import Stack from './stack/stack';
 
 function App() {
   return (
-    <div className="App">
-      hola
-    </div>
+    <Stack/>
   )
 }
 

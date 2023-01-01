@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: #00A154;
+    border: 3px solid #111;
+}
+
+.card-title {
+    width: 90%;
+    text-align: center;
+    background-color: #006F39;
+    color: #fff;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 10px;
+    margin:15px
+}
+
+.card-description{
+    width: 90%;
+    text-align: center;
+    background-color: #006F39;
+    color: #111;
+    font-weight: 100;
+    font-size: 20px;
+    padding: 30px;
+    margin:12px;
+}
+
+.card-button {
+    width: 90%;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 14px;
+    margin:15px;
+    text-decoration: none;
+}
