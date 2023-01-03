@@ -1,0 +1,126 @@
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.member-title1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 50px;
+}
+.member-title2 {
+    font-size: 60px;
+    letter-spacing: 10px;   
+    color: #00A154;     
+    text-align: center;
+}
+
+.member-container,
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-top: 70px;
+}
+
+.member-container-header,
+.team-container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #00A154;
+    padding: 15px;
+}
+
+.member-container-numberTeams {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.member-container-header-title {
+    font-size: 30px;
+}
+
+.member-container-numberTeams-operations {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin: 0px 45px;
+    font-weight: 700;
+}
+
+.member-container-numberTeams-number {
+    font-size: 50px;
+    color :#fff;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 1000px;
+    background-color: #00A154;
+}
+
+.members-add {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.members-add-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.members-add-button {
+    width: 20%;
+    margin-left: 1%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #111;
+}
+
+.members-list,
+.teams-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.members-button {
+    margin-top: 10px;
+    width: 1000px;
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.members-needToAdd {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.team-container-header-title {
+    font-size: 30px;
+    color: #fff;
+}
+

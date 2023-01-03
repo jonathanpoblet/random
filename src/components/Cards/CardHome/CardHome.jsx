@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './card.css';
+import './cardhome.css';
 
-const Card = ({ title,description,button,route }) => {
+const CardHome = ({ title,description,button,route }) => {
     return (
         <div className='card'>
             <h1 className='card-title'>{ title }</h1>
@@ -17,4 +17,4 @@ const Card = ({ title,description,button,route }) => {
     );
 }
 
-export default Card;
+export default CardHome;

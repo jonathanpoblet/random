@@ -1,0 +1,17 @@
+.card-member {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0px 5px 10px 5px;
+    align-items: center;
+    width: 480px;
+    background-color: rgb(238, 236, 236);
+}
+
+.card-member-icons {
+    font-size: 18px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
