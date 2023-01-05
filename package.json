@@ -1,14 +1,18 @@
 {
   "name": "random",
+  "homepage": "http://jonathanpoblet.github.io/random",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap-icons": "^1.10.2",
     "react-dom": "^18.2.0",
