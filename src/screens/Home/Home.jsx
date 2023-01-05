@@ -18,13 +18,13 @@ const Home = () => {
                     title='Number'
                     description='Establish a range between two numbers to get a random number inside the range. Number must be between 0 and the number you want'
                     button='CREATE RANDOM NUMBER'
-                    route='/randomnumber'
+                    route='/random/randomnumber'
                 />
                 <CardHome
                     title='Team'
                     description='Enter all the members and select how many teams do you want. Teams must have equal number of members. Max members 12'
                     button='CREATE RANDOM TEAMS'
-                    route='/randomteam'
+                    route='/random/randomteam'
                 />
             </div>
         </div>

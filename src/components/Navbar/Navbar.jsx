@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className='layout'>
             <div className='layout-container-logo'>
                 <Link 
-                    to='/'
+                    to='/random/'
                     className='logo'
                 >
                     RANDOM
@@ -18,14 +18,14 @@ const Navbar = () => {
             
             <div className='layout-container-options'> 
                 <Link 
-                    to='/randomnumber'
+                    to='/random/randomnumber'
                     className='layout-container-options-number'
                     >
                         <Infinity className='layout-container-options-number-logo'/>
                         <p className='layout-container-options-number-title'>Number</p>
                 </Link>
                 <Link 
-                    to='/randomteam'
+                    to='/random/randomteam'
                     className='layout-container-options-team'
                     >
                         <PersonFillAdd className='layout-container-options-team-logo'/>

@@ -11,15 +11,15 @@ const Stack = () => {
             <Layout>
                 <Routes>
                     <Route
-                        path='/'
+                        path='/random/'
                         element={ <Home /> }
                     />
                     <Route
-                        path='/randomnumber'
+                        path='/random/randomnumber'
                         element={ <Number /> }
                     />
                     <Route
-                        path='/randomteam'
+                        path='/random/randomteam'
                         element={ <Team /> }
                     />
                 </Routes>
