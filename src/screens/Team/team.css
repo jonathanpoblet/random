@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90vh;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .member-title1 {
@@ -94,8 +95,7 @@
     background-color: #111;
 }
 
-.members-list,
-.teams-list {
+.members-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -119,8 +119,72 @@
     padding: 20px;
 }
 
+
+/*TEAMS*/
 .team-container-header-title {
     font-size: 30px;
     color: #fff;
 }
 
+.teams-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 1000px;
+    background-color: #00A154;
+    margin-top: 10px;
+}
+
+.allteams {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 10px;
+    background-color: rgb(238, 236, 236);
+}
+
+.allteams-title {
+    background-color: #111;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.allmembers {
+    font-size: 16px;
+    padding: 6px;
+}
+
+.allmembers:nth-child(2n) {
+    background-color: rgb(224, 224, 224);
+}
+
+.all-members-button {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: center;
+}
+
+.all-members-button-1{
+    width: 50%;
+    padding: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #111;
+    cursor: pointer;
+}
+
+.all-members-button-2 {
+    width: 50%;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+    background-color: #111;
+    cursor: pointer;
+}
+ 

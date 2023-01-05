@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../components/Cards/CardHome/CardHome.jsx';
+import CardHome from '../../components/Cards/CardHome/CardHome.jsx';
 import './home.css';
 
 const Home = () => {
@@ -14,13 +14,13 @@ const Home = () => {
                 Generate random numbers or teams
             </h3>
             <div className='home-container-cards'>
-                <Card
+                <CardHome
                     title='Number'
                     description='Establish a range between two numbers to get a random number inside the range. Number must be between 0 and the number you want'
                     button='CREATE RANDOM NUMBER'
                     route='/randomnumber'
                 />
-                <Card
+                <CardHome
                     title='Team'
                     description='Enter all the members and select how many teams do you want. Teams must have equal number of members. Max members 12'
                     button='CREATE RANDOM TEAMS'
