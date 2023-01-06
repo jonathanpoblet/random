@@ -60,7 +60,6 @@ const Team = () => {
         }
     }
 
-    //Terminar
     function deleteMember(index) {
         const membersArray = [...members];
         membersArray.splice(index,1)

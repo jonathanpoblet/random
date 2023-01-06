@@ -161,6 +161,7 @@
     background-color: rgb(224, 224, 224);
 }
 
+
 .all-members-button {
     display: flex;
     flex-direction: row;
@@ -187,4 +188,73 @@
     background-color: #111;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1120px) {
+    .member-container,
+    .team-container {
+        width: 650px;
+    }
+    .members {
+        width: 650px;
+    }
+    .members-button {
+        width: 650px;
+    }
+    .all-members-button {
+        width: 650px;
+    }
+    .teams-list {
+        width: 650px;
+    }
+}
  
+
+@media screen and (max-width: 900px) {
+    .member-title1,
+    .member-title2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .member-container,
+    .team-container,
+    .members,
+    .members-button,
+    .all-members-button, 
+    .teams-list{ 
+        width: 300px;
+    }
+    .member-container-header-title {
+        font-size: 20px;
+    }
+    
+    .member-container-numberTeams-operations {
+        font-size: 25px;
+        margin: 0px 22px;
+        font-weight: 700;
+    }
+    .members-add-input {
+        width: 65%;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .members-add-button {
+        width: 35%;
+        margin-left: 1%;
+        font-size: 12px;
+    }
+    .members-needToAdd {
+        font-size: 16px;
+        padding: 20px;
+        text-align: center;
+    }
+    .allteams {
+        width: 100%;
+        margin: 10px;
+    }
+    .member-title1 {
+        padding: 0px 0px;
+    }
+}
