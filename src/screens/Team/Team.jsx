@@ -155,7 +155,12 @@ const Team = () => {
                                 className='members-add-input'
                                 id='input-member'
                             />
-                            <button className='members-add-button' onClick={() => addMember()}>
+                            <button className='members-add-button' onClick={() => {
+                                        addMember()
+                                        const member = document.getElementById('input-member');
+                                        member.value = ''
+                                    }
+                            }>
                                 ADD MEMBER
                             </button>
                         </div>
