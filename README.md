@@ -31,5 +31,5 @@ Random is a website for people who want to get a random number o create random t
 - Use of sweetalert2 for the communication to the user
 
 ## Link of the proyect
-https://jonathanpoblet.github.io/random/
+[PROYECT](https://jonathanpoblet.github.io/random/)
 
