@@ -22,7 +22,7 @@ const Home = () => {
                 />
                 <CardHome
                     title='Team'
-                    description='Enter all the members and select how many teams do you want. Teams must have equal number of members. Max members 12'
+                    description='Enter all the members and select how many teams do you want. Teams must have equal number of members. Members between 2 - 12'
                     button='CREATE RANDOM TEAMS'
                     route='/random/randomteam'
                 />
